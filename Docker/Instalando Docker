@@ -1,0 +1,35 @@
+Montando repositorio:
+Versao Docker-CE
+
+Removendo versoes antigas do docker:
+yum remove docker \
+                  docker-common \
+                  docker-selinux \
+                  docker-engine
+Montando o repositorio :
+
+yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+*instala requisitos para instalacao do docker
+
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+*instala o repositorio estavel , (importante)
+
+Instalando o docker-ce:
+yum install docker-ce -y
+
+Testar se esta funcionando:
+docker run hello-world
+
+Habilitar para iniciar onboot:
+systemctl enable docker
+
+Instalar o docker-composer:
+curl -L https://github.com/docker/compose/releases/download/1.15.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+Dar permissao pro docker compose:
+sudo chmod +x /usr/local/bin/docker-compose

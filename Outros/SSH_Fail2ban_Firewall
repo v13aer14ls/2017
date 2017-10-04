@@ -1,0 +1,61 @@
+Configurando Acesso SSH Centos 7
+
+-Atualizar o EPEL
+install epel-release
+
+-Atualizar o SO
+yum update
+##################################################################################
+Firewall
+
+-Configurar o firewall (se estiver deshabilitado, ligar ele)
+systemctl start firewalld
+
+-Para Habilitar o firewall onboot:
+systemctl enable firewalld
+
+-Adicionar excecao no firewall :
+firewall-cmd --permanent --add-service=ssh
+firewall-cmd --permanent --add-service=http
+
+Para ver todos os serviços que podemos abrir as portas pela lista default basta digitar:
+firewall-cmd --get-services
+
+Para abrir uma porta que não esta listada nos serviços podemos usar o seguinte comando:
+firewall-cmd --permanent --add-port=22/tcp
+
+Podemos listar as portas abertas de forma permanente com o seguinte comando:
+firewall-cmd --permanent --list-all
+
+Para colocar as novas regras em funcionamento nos precisamos dar um reload no firewalld, para isso digite:
+firewall-cmd --reload
+#########################################################################################################
+Instalar o Fail2ban - Seguranca
+
+yum install fail2ban fail2ban-firewalld fail2ban-systemd
+
+Editar o arquivo de conf
+vi /etc/fail2ban/jail.d/sshd.conf
+[DEFAULT]
+bantime = 345600
+banaction = firewallcmd-ipset
+backend = systemd
+action = %(action_mwl)s
+maxretry = 4
+[sshd]
+enabled = true
+
+*criar o arquivo, em caso de erro de senha 4x o usuario sera banido por aquele tempo ali.
+
+Inciar o fail2ban e habilitar no boot
+
+systemctl start fail2ban
+systemctl enable fail2ban
+
+Configurar relogio NTP
+
+yum install NTP
+systemctl start ntpd
+systemctl enable ntpd
+
+(o caboco pode levar ban e alterar o relogio dele pra voltar quando nao tiver banido provavelmente)

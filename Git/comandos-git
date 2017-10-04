@@ -1,0 +1,41 @@
+GITCOMANDOS 
+
+Rastreia o arquivo
+git add <arquivo>
+
+Grava alteracao no repositorio
+git commit -m "<mensagem>" 
+
+Mosta status do repositorio
+git status
+
+Mostra alteracoes
+git whatchanged -p
+
+Mostra Logs
+git logs
+
+Mostra repositorios remotos
+git remote
+
+Adicionando repositorio 
+git remote add <nome> <URLDOREPOSITORIO>
+
+Fazendo pushs pro repositorio
+git push <nomerepositorio> <branchrepositorio>
+---Inserir senha e user
+
+Puxando repositorios 
+git clone <url do repositorio>
+
+Criando branch
+git branc <nomedabranch>
+
+Mudando branch
+git checkout <nomedabranch>
+
+Saber branch existentes 
+git branch -r
+
+Puxando a branch atrelada
+git branch -t <nomedabranch> <nomedorepositorio>/<nomedabranch>
