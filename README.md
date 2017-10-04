@@ -69,11 +69,11 @@ Criar base de conhecimento sobre Rancher
 
 	 -Arquivo de Instalacao
 
-	 -Criacao de Lab em diversas arquiteturas (HA,Sem HA,swarm,cubbernets etc etc) 
+	 -Criacao de Lab em multiplas arquiteturas 
 
 	 -Aplicabilidade e Sinergia com outras ferramentas
 
-
+	 -Desenhar com ferramenta draw.io
 
 
 
