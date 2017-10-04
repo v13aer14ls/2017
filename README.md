@@ -2,6 +2,8 @@
 Mapeamento de conhecimentos gerais.
 
 # Estrutura
+
+
 Ferramenta
 
 
@@ -26,16 +28,16 @@ Ferramenta
 
 # Objetivo
 
--Montar um portifolio de trabalho
+Montar um portifolio de trabalho
 
 
 # Milestones
 
--Criar o repositorio no GitHub (FEITO)
+Criar o repositorio no GitHub (FEITO)
 
--Criar estrutura da base de conhecimento (EM ANDAMENTO)
+Criar estrutura da base de conhecimento (EM ANDAMENTO)
 
--Criar base de conhecimento sobre Docker (EM ANDAMENTO)
+Criar base de conhecimento sobre Docker (EM ANDAMENTO)
 
 	 -Comandos basicos (FEITO)
 
@@ -48,7 +50,7 @@ Ferramenta
 
 
 
--Criar base de conhecimento sobre Ansible
+Criar base de conhecimento sobre Ansible
 
 	 -Comandos Basicos
 
@@ -61,7 +63,7 @@ Ferramenta
 
 
 
--Criar base de conhecimento sobre Rancher
+Criar base de conhecimento sobre Rancher
 
 	 -Comandos Basicos
 
