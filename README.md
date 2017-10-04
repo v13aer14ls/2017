@@ -2,7 +2,7 @@
 Mapeamento de conhecimentos gerais.
 
 # Estrutura
--Ferramenta
+Ferramenta
 
 
 
@@ -37,39 +37,39 @@ Mapeamento de conhecimentos gerais.
 
 -Criar base de conhecimento sobre Docker (EM ANDAMENTO)
 
- -Comandos basicos (FEITO)
+	 -Comandos basicos (FEITO)
 
- -Arquivo de Instalacao (FEITO)
+	 -Arquivo de Instalacao (FEITO)
 
- -Lab Operacional (FEITO)
+	 -Lab Operacional (FEITO)
 
- -Aplicabilidade e Sinergia com outras ferramentas (EM ANDAMENTO)
+	 -Aplicabilidade e Sinergia com outras ferramentas (EM ANDAMENTO)
 
 
 
 
 -Criar base de conhecimento sobre Ansible
 
- -Comandos Basicos
+	 -Comandos Basicos
 
- -Arquivo de Instalacao
+	 -Arquivo de Instalacao
 
- -Criacao de Lab de Orquestracao
+	 -Criacao de Lab de Orquestracao
 
- -Aplicabilidade e Sinergia com outras ferramentas
+	 -Aplicabilidade e Sinergia com outras ferramentas
 
 
 
 
 -Criar base de conhecimento sobre Rancher
 
- -Comandos Basicos
+	 -Comandos Basicos
 
- -Arquivo de Instalacao
+	 -Arquivo de Instalacao
 
- -Criacao de Lab em diversas arquiteturas (HA,Sem HA,swarm,cubbernets etc etc) 
+	 -Criacao de Lab em diversas arquiteturas (HA,Sem HA,swarm,cubbernets etc etc) 
 
- -Aplicabilidade e Sinergia com outras ferramentas
+	 -Aplicabilidade e Sinergia com outras ferramentas
 
 
 
