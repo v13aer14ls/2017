@@ -1,4 +1,5 @@
-#Instalação do Ansible
+
+# Instalação do Ansible
 
 Ansible é uma ferramenta para controle e gerenciamento de hosts.
 O Ansible por padrão gerencia maquinas pelo protocolo SSH
@@ -6,7 +7,7 @@ Uma vez instalado, ele não irá criar uma database, e não haverão daemons par
 Você apenas precisará instalar em uma maquina, e podera  gerenciar uma frota inteira de maquinas remotas daquele ponto central.
 Quando o Ansible gerencia maquinas remotas, ele não instala software ou roda algo nelas.
 
-#Requerimentos da máquina de controle
+# Requerimentos da máquina de controle
 
 Atualmente o Ansible pode rodar em qualquer maquina com Python 2 (2.6,ou 2.7) ou Python 3 (3.5 ou superior) instalado.
 (Não existem versões suportadas pra windows como maquina de controle.)
